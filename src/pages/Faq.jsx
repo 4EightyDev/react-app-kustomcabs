@@ -3,9 +3,14 @@ import {contacts} from '../constants'
 
 const faqs = [
      {
-          question: 'How do you make holy water?',
+          question: 'Do you make cool cabinets?',
           answer:
-               'You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
+               'Yep.',
+     },
+     {
+          question: 'Really?',
+          answer:
+               'Yeah.',
      },
 ]
 
