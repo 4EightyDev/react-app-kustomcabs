@@ -1,38 +1,19 @@
 import React from 'react'
-import OwlCarousel from 'react-owl-carousel';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
-import { CardTeamMember, HeadingTeam } from '../components';
+import { CardTeamMember, PageTitle } from '../components';
 import { TeamBrandon, TeamChristine, TeamDave, TeamJoe, TeamJose, TeamMariah, TeamNick, TeamPaull, TeamScott, TeamThomas, TeamWill } from '../images'
 
 const OurTeam = () => {
      return (
           <div className='bg-white dark:bg-gray-dark dark:text-white flex-center flex-col'>
-               <section className="bg-gray-lighter py-8 w-full">
-                    <div className="container">
-                         <h1 className='font-serif text-4xl pl-2 pb-1 border-l-4 border-gold leading-none'>Our Team</h1>
-                    </div>
-               </section>
-               <section className="py-16 w-full">
-                    <div className="container">
-                         <OwlCarousel className='owl-theme' nav={false} dots={true} margin={20} loop autoplay
-                              responsive={
-                                   {
-                                        0: {
-                                             items: 1
-                                        },
-                                        800: {
-                                             items: 2
-                                        },
-                                        1024: {
-                                             items: 3
-                                        },
-                                        1200: {
-                                             items: 4
-                                        }
-                                   }
-                              }>
-                              <CardTeamMember name='Joe Swain' img={TeamJoe} position='Owner / Founder' />
+               <PageTitle title='Our Team' />
+               <section className="w-full">
+                    <div className="container-2xl md:flex">
+                         <div className='md:w-1/2 lg:w-5/12 xl:w-1/3 pr-4 pl-2'>
+                              <div className='sticky top-[185px]'>
+                                   <CardTeamMember name='Joe Swain' img={TeamJoe} position='Owner / Founder' bio='With more than forty years of woodworking experience and a passion for quality, Joe Swain has spent a lifetime developing his skills in the woodworking industry.' />
+                              </div>
+                         </div>
+                         <div className='md:w-1/2 lg:w-7/12 xl:w-2/3 grid md:grid-cols-1 lg:grid-cols-2'>
                               <CardTeamMember name='Christine Siller' img={TeamChristine} position='POSITION' />
                               <CardTeamMember name='Mariah Gallegos' img={TeamMariah} position='Design Specialist / Product Manager' />
                               <CardTeamMember name="Will O'Fallon" img={TeamWill} position='Design Specialist' />
@@ -43,7 +24,7 @@ const OurTeam = () => {
                               <CardTeamMember name='Jose Olivarria' img={TeamJose} position='Finisher' />
                               <CardTeamMember name='Dave West' img={TeamDave} position='Installer' />
                               <CardTeamMember name='Thomas Patch' img={TeamThomas} position='Assembler' />
-                         </OwlCarousel>
+                         </div>
                     </div>
                </section>
           </div>

@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Logo } from '..'
+import { contacts } from '../../constants';
 
 const App = () => {
      console.log(new Date().getFullYear());
@@ -25,7 +26,12 @@ const Footer = () => {
                <div className="mx-auto max-w-7xl overflow-hidden pt-10 pb-6 px-4 sm:px-6 lg:px-8">
                     <div className='flex-center flex-col mb-6'>
                          <Logo />
-                         <p className='mt-4 text-neutral-500 font-bold'>ROC B03 #0322917</p>
+                         <div className='flex-center pt-4'>
+                              <p className='text-neutral-500 font-bold p-2'>ROC B03 #0322917</p>
+                              {contacts.map((contact) => (
+                                   <a className='text-white p-2' href={contact.hrefphone} title={contact.phoneSales}>{contact.phoneSales}</a>
+                              ))}
+                         </div>
                     </div>
                     <nav className="flex flex-wrap justify-center" aria-label="Footer">
                          {navigation.main.map((item) => (

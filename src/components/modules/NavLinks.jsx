@@ -1,10 +1,10 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuilding, faPhoneAlt } from '@fortawesome/pro-light-svg-icons'
-import { faPeopleGroup } from "@fortawesome/pro-solid-svg-icons"
-import { faCommentsQuestion } from "@fortawesome/pro-regular-svg-icons"
+import { faBuilding, faPeopleGroup } from "@fortawesome/pro-solid-svg-icons"
+import { faPhoneAlt, faCommentsQuestion } from "@fortawesome/pro-light-svg-icons"
 
 const navigation = [
+     { name: 'Our Story', href: '/our-story', icon: faBuilding },
      { name: 'Our Team', href: '/our-team', icon: faPeopleGroup },
      { name: 'Frequenty Asked Questions', href: '/faq', icon: faCommentsQuestion },
      { name: 'Contact Us', href: '/contact-us', icon: faPhoneAlt },

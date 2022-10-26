@@ -1,5 +1,6 @@
 // // SITE CONSTANTS // // 
 
+// Social Link (Sidebar)
 export const socialLinks = [
      {
           name: 'Email Us',
@@ -21,4 +22,15 @@ export const socialLinks = [
           href: 'https://www.instagram.com/kustomcabs_llc/',
           icon: 'fa-brands fa-instagram',
      },
+]
+
+// Sitewide Contact Info
+export const contacts = [
+     {
+          emailinfo: 'info@kustomcabs.com',
+          emailSales: 'sales@kustomcabs.com',
+          emailJoe: 'joe@kustomcabs.com',
+          phoneSales: '(480) 485-7744',
+          hrefphone: 'tel:4804857744',
+     }
 ]

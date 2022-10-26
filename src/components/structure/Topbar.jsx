@@ -1,6 +1,7 @@
 import React from 'react'
 import { Logo, SectionTitle, Button } from '../'
 import { faPhone } from '@fortawesome/pro-light-svg-icons'
+import { contacts } from '../../constants'
 
 const Topbar = () => {
      return (
@@ -10,10 +11,12 @@ const Topbar = () => {
                </div>
                <figure className='mx-auto hidden md:block'>
                     <a href='##' title='Request A Free Quote'>
-                         <SectionTitle class='mr-3 md:mr-4 lg:mr-6' first='Request A' second='Free Quote' />
+                         <SectionTitle class='mr-3 md:mr-4 lg:mr-6 bg-white p-4 rounded-lg hover:shadow-2xl transition-all' first='Request A' second='Free Quote' />
                     </a>
                </figure>
-               <Button href='tel:(480) 485-7744' icon={faPhone} text='(480) 485-7744' classText='last:hidden last:sm:inline' />
+               {contacts.map((contact) => (
+                    <Button href={contact.hrefphone} icon={faPhone} text='(480) 485-7744' classText='last:hidden last:sm:inline' />
+               ))}
           </div>
      )
 }
