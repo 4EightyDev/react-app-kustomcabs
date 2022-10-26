@@ -10,7 +10,7 @@ const faqs = [
      {
           question: 'Really?',
           answer:
-               'Yeah.',
+               'Yeah...',
      },
 ]
 
