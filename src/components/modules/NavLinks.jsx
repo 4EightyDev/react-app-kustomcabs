@@ -7,7 +7,6 @@ const navigation = [
      { name: 'Our Story', href: '/our-story', icon: faBuilding },
      { name: 'Our Team', href: '/our-team', icon: faPeopleGroup },
      { name: 'Frequenty Asked Questions', href: '/faq', icon: faCommentsQuestion },
-     { name: 'Contact Us', href: '/contact-us', icon: faPhoneAlt },
 ]
 const secondaryNavigation = [
      { name: 'Kitchen Cabinetry', href: '/services' },

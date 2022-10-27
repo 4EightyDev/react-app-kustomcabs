@@ -14,7 +14,7 @@ const OurTeam = () => {
                               </div>
                          </div>
                          <div className='md:w-1/2 lg:w-7/12 xl:w-2/3 grid md:grid-cols-1 lg:grid-cols-2'>
-                              <CardTeamMember name='Christine Siller' img={TeamChristine} position='POSITION' />
+                              <CardTeamMember name='Christine Siller' img={TeamChristine} position='Business Manager' />
                               <CardTeamMember name='Mariah Gallegos' img={TeamMariah} position='Design Specialist / Product Manager' />
                               <CardTeamMember name="Will O'Fallon" img={TeamWill} position='Design Specialist' />
                               <CardTeamMember name='Scott Vance' img={TeamScott} position='Senior Cabinetmaker' />

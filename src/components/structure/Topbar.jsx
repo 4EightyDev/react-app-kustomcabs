@@ -10,7 +10,7 @@ const Topbar = () => {
                     <Logo />
                </div>
                <figure className='mx-auto hidden md:block'>
-                    <a href='##' title='Request A Free Quote'>
+                    <a href='/free-quote' title='Request A Free Quote'>
                          <SectionTitle class='mr-3 md:mr-4 lg:mr-6 bg-white p-4 rounded-lg hover:shadow-2xl transition-all' first='Request A' second='Free Quote' />
                     </a>
                </figure>
