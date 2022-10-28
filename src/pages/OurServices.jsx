@@ -6,7 +6,7 @@ const OurServices = () => {
           <>
                <PageTitle title='Our Services' />
                <h2 className="text-4xl font-serif mt-16 text-center">
-                    Coming Soon
+                    This page is currently in production. Please check back soon!
                </h2>
           </>
      )
