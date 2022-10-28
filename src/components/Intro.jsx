@@ -1,4 +1,3 @@
-import { faArrowRight, faFilePen } from '@fortawesome/pro-light-svg-icons'
 import React from 'react'
 import { Button } from '.'
 
