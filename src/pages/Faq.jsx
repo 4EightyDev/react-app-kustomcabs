@@ -46,7 +46,7 @@ export default function Faq() {
                <PageTitle title='Frequently Asked Questions' />
                <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
                     <div className="lg:grid lg:grid-cols-3 lg:gap-8">
-                         <div className='h-[max-content] sticky top-[200px]'>
+                         <div className='h-[max-content] lg:sticky top-[200px]'>
                               <h2 className="font-serif text-gold text-4xl">How can we help?</h2>
                               <p className="mt-4 text-lg text-gray-dark">Can't find the answer you're looking for? Reach out to our
                                    {contacts.map((contact) => (
