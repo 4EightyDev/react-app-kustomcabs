@@ -1,6 +1,6 @@
 import React from 'react'
 import { CardTeamMember, PageTitle } from '../components';
-import { TeamBrandon, TeamChristine, TeamDave, TeamJoe, TeamJose, TeamMariah, TeamNick, TeamPaull, TeamScott, TeamThomas, TeamWill } from '../images'
+import { TeamBrandon, TeamChristine, TeamDave, TeamJoe, TeamMariah, TeamNick, TeamPaull, TeamScott, TeamThomas, TeamWill } from '../images'
 
 const OurTeam = () => {
      return (
