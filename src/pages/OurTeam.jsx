@@ -21,7 +21,6 @@ const OurTeam = () => {
                               <CardTeamMember name="Will O'Fallon" img={TeamWill} position='Design Specialist' />
                               <CardTeamMember name='Scott Vance' img={TeamScott} position='Senior Cabinetmaker' />
                               <CardTeamMember name='Brandon Brian' img={TeamBrandon} position='Finish Specialist' />
-                              <CardTeamMember name='Jose Olivarria' img={TeamJose} position='Finish Specialist' />
                               <CardTeamMember name='Dave West' img={TeamDave} position='Installation Specialist' />
                               <CardTeamMember name='Thomas Patch' img={TeamThomas} position='Assembly Specialist' />
                          </div>
