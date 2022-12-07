@@ -13,11 +13,11 @@ module.exports = {
           },
           extend: {
                backgroundImage: {
-                    'kitchen': "url('./images/hero/category-kitchen_cabinetry.jpg')",
-                    'bathroom': "url('./images/hero/category-bathroom_cabinetry.jpg')",
-                    'home-office': "url('./images/hero/category-home_office_cabinetry.jpg')",
-                    'laundry-room': "url('./images/hero/category-laundry_room_cabinetry.jpg')",
-                    'refacing-and-refinishing': "url('./images/hero/category-refacing_and_refinishing.jpg')",
+                    'kitchen': "url('./images/hero/category-kitchen_cabinetry.webp')",
+                    'bathroom': "url('./images/hero/category-bathroom_cabinetry.webp')",
+                    'home-office': "url('./images/hero/category-home_office_cabinetry.webp')",
+                    'laundry-room': "url('./images/hero/category-laundry_room_cabinetry.webp')",
+                    'refacing-and-refinishing': "url('./images/hero/category-refacing_and_refinishing.webp')",
                },
                screens: {
                     'short': { 'raw': '(max-height: 725px)' },
