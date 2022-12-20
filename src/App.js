@@ -1,7 +1,23 @@
 import React from 'react';
-import { Header, Footer } from './components'
-import { Route, Routes } from 'react-router-dom'
-import { Home, OurStory, OurTeam, Faq, ContactUs, OurServices, FreeQuote } from './pages'
+import { Header, Footer } from './components';
+import { Route, Routes } from 'react-router-dom';
+import {
+     Home,
+     OurStory,
+     OurTeam,
+     Faq,
+     ContactUs,
+     OurServices,
+     FreeQuote,
+} from './pages';
+
+import TagManager from 'react-gtm-module';
+
+const tagManagerArgs = {
+     gtmId: 'GTM-TQWCSH6',
+};
+
+TagManager.initialize(tagManagerArgs);
 
 const App = () => {
      return (
@@ -19,6 +35,6 @@ const App = () => {
                <Footer />
           </div>
      );
-}
+};
 
 export default App;
