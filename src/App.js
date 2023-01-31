@@ -12,6 +12,7 @@ import {
 } from './pages';
 
 import TagManager from 'react-gtm-module';
+import Blog from './pages/Blog';
 
 const tagManagerArgs = {
      gtmId: 'GTM-TQWCSH6',
@@ -31,6 +32,7 @@ const App = () => {
                     <Route path='/contact-us' element={<ContactUs />} />
                     <Route path='/services' element={<OurServices />} />
                     <Route path='/free-quote' element={<FreeQuote />} />
+                    <Route path='/blog' element={<Blog />} />
                </Routes>
                <Footer />
           </div>
