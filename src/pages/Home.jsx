@@ -1,5 +1,5 @@
 import React from 'react'
-import { AuthorizedDealer, Hero, Intro, Services } from '../components'
+import { AuthorizedDealer, Hero, Intro, Services, HomeMoreCopy } from '../components'
 import { faArrowRight } from '@fortawesome/pro-regular-svg-icons'
 
 const Home = () => {
@@ -7,15 +7,16 @@ const Home = () => {
           <>
                <Hero />
                <Intro
-                    subtitle='From Concept'
-                    title='To Completion'
-                    copy='The Kustomcabs vision is to create an aesthetically stunning and functional cabinetry solution for your home. Our tried-and-true process guides your project from concept to completion. Our talented design consultants are experts at listening to your needs and wants. We take your design inspirations, lifestyle, and budget into consideration, and work with you to create the kitchen, bathroom, or home office of your dreams!'
+                    subtitle='Your One-Stop'
+                    title='Cabinet Shop'
+                    copy='The Kustomcabs vision is to create an aesthetically attractive and functional cabinetry solution for your home. Our tried-and-true process guides your project from concept to completion. Our talented design consultants are experts at listening to your needs and wants. We have been custom cabinet makers based in Chandler, AZ, and our years of experience make us the best cabinet installers in the greater Phoenix area. We consider your design inspirations, lifestyle, and budget and work with you to create the kitchen, bathroom, or home office of your dreams!'
                     buttonIcon={faArrowRight}
-                    buttonHref='/our-story'
-                    buttonText='Read Our Story'
+                    buttonHref='/free-quote'
+                    buttonText='Get a Free Quote'
                />
                <Services />
                <AuthorizedDealer />
+               <HomeMoreCopy />
           </>
      )
 }

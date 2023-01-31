@@ -4,6 +4,7 @@
 export { default as Hero } from './Hero'
 export { default as AuthorizedDealer } from './AuthorizedDealer'
 export { default as Services } from './Services'
+export { default as HomeMoreCopy } from './HomeMoreCopy'
 export { default as Intro } from './Intro'
 
 // Site Structure
