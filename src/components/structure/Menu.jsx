@@ -22,8 +22,8 @@ const navigation = [
      },
 ];
 const secondaryNavigation = [
-     { name: 'Kitchen Cabinetry', href: '/services' },
-     { name: 'Bathroom Cabinetry', href: '/services' },
+     { name: 'Kitchen Cabinetry', href: '/services/kitchen-cabinetry' },
+     { name: 'Bathroom Cabinetry', href: '/services/bathroom-cabinetry' },
      { name: 'Home Office Cabinetry', href: '/services' },
      { name: 'Laundry Room Cabinetry', href: '/services' },
      { name: 'Refacing & Refinishing', href: '/services' },
