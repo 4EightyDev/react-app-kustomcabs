@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBuilding, faPeopleGroup } from '@fortawesome/pro-solid-svg-icons';
+import { faBuilding, faPeopleGroup, faPencil } from '@fortawesome/pro-solid-svg-icons';
 import { faCommentsQuestion } from '@fortawesome/pro-light-svg-icons';
 import { Link } from 'react-router-dom';
 
@@ -12,6 +12,7 @@ const navigation = [
           href: '/faq',
           icon: faCommentsQuestion,
      },
+     { name: 'Blog', href: '/blog', icon: faPencil },
 ];
 const secondaryNavigation = [
      { name: 'Kitchen Cabinetry', href: '/services/kitchen-cabinetry' },
@@ -19,7 +20,9 @@ const secondaryNavigation = [
      { name: 'Home Office Cabinetry', href: '/services' },
      { name: 'Laundry Room Cabinetry', href: '/services' },
      { name: 'Refacing & Refinishing', href: '/services' },
+
 ];
+
 
 function classNames(...classes) {
      return classes.filter(Boolean).join(' ');

@@ -7,7 +7,7 @@ import {
      faCommentsQuestion,
      faBarsSort,
      faBuilding,
-     faPeopleGroup,
+     faPeopleGroup, faPencil,
 } from '@fortawesome/pro-solid-svg-icons';
 
 import { NavLinks } from '../';
@@ -20,6 +20,7 @@ const navigation = [
           href: '/faq',
           icon: faCommentsQuestion,
      },
+    /* { name: 'Blog', href: '/blog', icon: faPencil }, */
 ];
 const secondaryNavigation = [
      { name: 'Kitchen Cabinetry', href: '/services/kitchen-cabinetry' },
