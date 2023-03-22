@@ -12,9 +12,13 @@ const App = () => {
 
 const navigation = {
      main: [
+          { name: 'Kitchen Cabinetry', href: '/services/kitchen-cabinetry' },
+          { name: 'Bathroom Cabinetry', href: '/services/bathroom-cabinetry' },
           { name: 'Our Story', href: '/our-story' },
           { name: 'Our Team', href: '/our-team' },
-          { name: 'Frequenty Asked Questions', href: '/faq' },
+          { name: 'Frequently Asked Questions', href: '/faq' },
+         /* { name: 'Blog', href: '/blog' }, */
+
      ],
 };
 
