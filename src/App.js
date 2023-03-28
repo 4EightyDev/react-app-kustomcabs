@@ -45,7 +45,7 @@ const App = () => {
                          />
                          <Route path='/free-quote' element={<FreeQuote />} />
                          <Route path='/blog' element={<Blog />} />
-                         <Route path='/post/:id' element={<Post />} />
+                         <Route path='/post/:id/:slug' element={<Post />} />
 
                </Routes>
                <Footer />
