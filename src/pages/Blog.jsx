@@ -25,7 +25,7 @@ function WordPressPosts() {
 
         <div className="container">
             <h1 className="mb-8"><span
-                className="font-serif text-4xl block text-gold">Kustomcabs Blog</span></h1>
+                className="font-serif text-4xl block text-gold">Kustomcabs Connection</span></h1>
             <ul>
                 {posts.map(post => (
                     <li key={post.id} className="list-post">
@@ -41,7 +41,7 @@ function WordPressPosts() {
 
                         <div className="post-meta"><div className="post-date">{formatDate(post.date)}</div></div>
                         <div dangerouslySetInnerHTML={{__html: post.excerpt.rendered}}></div>
-                        <div className="read-more"><Link to={`/post/${post.id}`}>Read More</Link></div>
+                        <div className="read-more"><Link to={`/post/${post.id}/${post.slug}`}>Read More</Link></div>
                     </li>
                 ))}
             </ul>

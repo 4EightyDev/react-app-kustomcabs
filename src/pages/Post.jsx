@@ -36,7 +36,7 @@ function Post({match}) {
                 <div className="container-2xl">
                     <h1 className="font-serif text-3xl pl-2 pb-1 border-l-4 border-gold leading-none">{post.title.rendered}</h1></div>
             </section>
-            <div className="container mb-8">
+            <div className="container mb-8 blog-post">
                 <div className="post-meta"><div className="post-date text-neutral-400 pb-2 pt-2">{formatDate(post.date)}</div></div>
                 <div dangerouslySetInnerHTML={{__html: post.content.rendered}}></div>
             </div>

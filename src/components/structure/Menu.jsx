@@ -20,7 +20,7 @@ const navigation = [
           href: '/faq',
           icon: faCommentsQuestion,
      },
-    /* { name: 'Blog', href: '/blog', icon: faPencil }, */
+     { name: 'Kustomcabs Connection Blog', href: '/blog', icon: faPencil },
 ];
 const secondaryNavigation = [
      { name: 'Kitchen Cabinetry', href: '/services/kitchen-cabinetry' },

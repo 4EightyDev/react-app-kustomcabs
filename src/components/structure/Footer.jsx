@@ -17,7 +17,7 @@ const navigation = {
           { name: 'Our Story', href: '/our-story' },
           { name: 'Our Team', href: '/our-team' },
           { name: 'Frequently Asked Questions', href: '/faq' },
-         /* { name: 'Blog', href: '/blog' }, */
+          { name: 'Kustomcabs Connection Blog', href: '/blog' },
 
      ],
 };
